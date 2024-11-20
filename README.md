@@ -7,7 +7,7 @@
 
 <br>
 
-<p align="center">
+<p>
     The plugin Ring Worm Modulator wants to emulate the existing RingWorm Modulator from Way Huge. 
     
 </p>
