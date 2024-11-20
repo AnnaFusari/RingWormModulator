@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="XdkAz1" name="RingWormModulator" projectType="audioplug"
+              useAppConfig="0" addUsingNamespaceToJuceHeader="1" displaySplashScreen="1"
+              jucerFormatVersion="1" pluginFormats="buildStandalone,buildVST3"
+              pluginChannelConfigs="{1,1},{2,2}">
+  <MAINGROUP id="PURz6m" name="RingWormModulator">
+    <GROUP id="{2FA86109-64EB-CB6D-10EC-637C129E281D}" name="Source">
+      <GROUP id="{44380491-FF95-BFB9-B8A9-E96F4B23CE4E}" name="GUI">
+        <FILE id="ZGLP4h" name="PluginEditorGui.cpp" compile="1" resource="0"
+              file="Source/PluginEditorGui.cpp"/>
+        <FILE id="EPb6F2" name="PluginEditorGui.h" compile="0" resource="0"
+              file="Source/PluginEditorGui.h"/>
+        <FILE id="WwSVtF" name="MyLookAndFeel.h" compile="0" resource="0" file="Source/MyLookAndFeel.h"/>
+      </GROUP>
+      <GROUP id="{8040F35F-A60A-FC9F-EC69-7F27FF6A2FFD}" name="DSP ">
+        <FILE id="RldxNs" name="Oscillator.h" compile="0" resource="0" file="Source/Oscillator.h"/>
+        <FILE id="XGGAvK" name="LfoOscillator.h" compile="0" resource="0" file="Source/LfoOscillator.h"/>
+        <FILE id="MxXRgr" name="DryWet.h" compile="0" resource="0" file="Source/DryWet.h"/>
+      </GROUP>
+      <FILE id="hUdj78" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="ahGTaE" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="RingWormModulator"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="RingWormModulator"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../Applications/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="RingWormModulator"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="RingWormModulator"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../Applications/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
