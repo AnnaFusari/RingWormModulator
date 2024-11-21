@@ -16,10 +16,8 @@
 
 <ul>
   <li>Ring modulation: the heart of the plugin is ring modulation, a technique that produces unique, harmonically rich sounds by multiplying the input signal with a sine oscillator used as the carrier wave.<br>
-  Oscillator controll parameters:
         <ul>
           <li>FREQ: this parameter adjusts the frequency of the carrier wave</li>
-          <li>BLEND: this parameter controls the intensity of the modulation on the output signal. When set to zero, the modulation effect is completely bypassed</li>
       </ul>
   </li>
   <li>LFO waveforms: the carrier wave is modulated in frequency by an LFO (Low Frequency Oscillator) that offers a diverse range of waveforms. <br>  The LFO is controlled by three parameters:
@@ -36,5 +34,5 @@
           <li>rate: adjusts the frequency of the LFO</li>
           <li>width: controls the amplitude of the LFO, determining the depth of the modulation</li>
   </li>
-
+  <li>BLEND: this parameter controls the intensity of the modulation on the output signal. When set to zero, the modulation effect is completely bypassed</li>
 </ul> 
