@@ -37,3 +37,10 @@
   </li>
   <li>BLEND: this parameter controls the intensity of the modulation on the output signal. When set to zero, the modulation effect is completely bypassed</li>
 </ul> 
+
+## 
+<br>
+<p>The following scheme shows the structure of the plugin, illustrating the signal flow and processing stages</p>
+<p align="center">
+    <img src="images/schema.png" alt="alt text" width="50%" height="50%">
+</p>
