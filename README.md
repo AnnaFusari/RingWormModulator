@@ -2,7 +2,7 @@
 
 
 <p align="center">
-    <img src="images/interface.png" alt="alt text">
+    <img src="images/interface.png" alt="alt text" width="128" height="128">
 </p>
 
 <br>
