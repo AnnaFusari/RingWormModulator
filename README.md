@@ -33,8 +33,8 @@
                   <li>Envelope follower: this mode uses the envelope of the input signal as the LFO waveform, creating dynamic and responsive modulation effects that follow the dynamics of the original signal</li>
               </ul>
           </li>
-          <li>Rate: Adjusts the frequency of the LFO</li>
-          <li>Controls the amplitude of the LFO, determining the depth of the modulation</li>
+          <li>rate: adjusts the frequency of the LFO</li>
+          <li>width: controls the amplitude of the LFO, determining the depth of the modulation</li>
   </li>
-  <li></li>
+
 </ul> 
