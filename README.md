@@ -8,8 +8,8 @@
 <br>
 
 <p>
-    The plugin Ring Worm Modulator wants to emulate the existing RingWorm Modulator from Way Huge. 
-    The RingWorm is a ring modulator 
+
+    RingWorm Modulator is a basic emulation of the iconic Way Huge Ring Worm Modulator, offering        core ring modulation capabilities in a digital format. Designed to process mono audio signals, this       plugin provides a wide range of creative possibilities through amplitude modulation.
 </p>
 
 <br>
