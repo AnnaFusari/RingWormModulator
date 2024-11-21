@@ -19,8 +19,8 @@
   <li>LFO waveforms: the carrier wave is modulated in frequency by an LFO (Low Frequency Oscillator) that offers a diverse range of waveforms controlled by the MODE parameter
       <ul>
           <li>Sine</li>
-          <li>Squared</li>
           <li>Step squared</li>
+          <li>Squared</li>
           <li>Random: it provides a waveform composed by random values</li>
           <li>Envelope folllower: the nevelope of the input signal is used as an LFO waveform</li>
       </ul>
