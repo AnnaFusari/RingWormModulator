@@ -15,7 +15,13 @@
 ## Key features
 
 <ul>
-  <li>Ring modulation: the heart of the plugin is ring modulation, a technique that produces unique, harmonically rich sounds by multiplying the input signal with a sine oscillator used as the carrier wave </li>
+  <li>Ring modulation: the heart of the plugin is ring modulation, a technique that produces unique, harmonically rich sounds by multiplying the input signal with a sine oscillator used as the carrier wave.<br>
+  Oscillator controll parameters:
+    <ul>
+          <li>FREQ: use it to chane the frequency of the carrier wave</li>
+          <li>BLEND: use it to controll the intensity of modulation on the output signal, if BLEND is null, the effect of the modulation is null</li>
+      </ul>
+  </li>
   <li>LFO waveforms: the carrier wave is modulated in frequency by an LFO (Low Frequency Oscillator) that offers a diverse range of waveforms controlled by the MODE parameter
       <ul>
           <li>Sine</li>
