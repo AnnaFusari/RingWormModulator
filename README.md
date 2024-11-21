@@ -15,7 +15,15 @@
 ## Key features
 
 <ul>
-  <li>Ring modulation: </li>
-  <li>LFO waveforms: </li>
+  <li>Ring modulation: the heart of the plugin is ring modulation, a technique that produces unique, harmonically rich sounds by multiplying the input signal with a sine oscillator used as the carrier wave </li>
+  <li>LFO waveforms: the carrier wave is modulated in frequency by an LFO (Low Frequency Oscillator) that offers a diverse range of waveforms controlled by the MODE parameter
+      <ul>
+          <li>Sine</li>
+          <li>Squared</li>
+          <li>Step squared</li>
+          <li>Random: it provides a waveform composed by random values</li>
+          <li>Envelope folllower: the nevelope of the input signal is used as an LFO waveform</li>
+      </ul>
+  </li>
   <li></li>
 </ul> 
