@@ -7,7 +7,7 @@
 
 <br>
 <p> 
-    RingWorm Modulator is a basic emulation of the iconic Ring Worm Modulator pedal from Way Huge. It is designed for mono audio signal and it provides a wide range of creativities possibilities thanks to the amplitude modulation made by the oscillator, and the different LFO waveforms. 
+    RingWorm Modulator is a basic emulation of the iconic Ring Worm Modulator pedal from Way Huge. It is designed for mono audio signal and it provides a wide range of creativities possibilities thanks to the amplitude modulation made by the oscillator, and the different LFO waveforms
 </p>
 
 <br>
@@ -15,7 +15,7 @@
 ## Key features
 
 <ul>
-  <li>Ring modulation: the heart of the plugin is ring modulation, a technique that produces unique, harmonically rich sounds by multiplying the input signal with a sine oscillator used as the carrier wave.<br>
+  <li>Ring modulation: the heart of the plugin is ring modulation, a technique that produces unique, harmonically rich sounds by multiplying the input signal with a sine oscillator used as the carrier wave<br>
         <ul>
           <li>FREQ: this parameter adjusts the frequency of the carrier wave</li>
       </ul>
