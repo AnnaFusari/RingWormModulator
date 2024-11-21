@@ -12,4 +12,8 @@
 
 <br>
 
-## Characteristic
+## Key features
+
+<p>
+    
+</p>
