@@ -33,6 +33,7 @@
           </li>
           <li>rate: adjusts the frequency of the LFO</li>
           <li>width: controls the amplitude of the LFO, determining the depth of the modulation</li>
+    </ul> 
   </li>
   <li>BLEND: this parameter controls the intensity of the modulation on the output signal. When set to zero, the modulation effect is completely bypassed</li>
 </ul> 
