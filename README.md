@@ -14,10 +14,8 @@
 
 ## Key features
 
-<h2>An Ordered HTML List</h2>
-
-<ol>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ol> 
+<ul>
+  <li>Ring modulation: </li>
+  <li>LFO waveforms: </li>
+  <li></li>
+</ul> 
